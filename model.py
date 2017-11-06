@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 """
-A quick, partial implementation of ENet (https://arxiv.org/abs/1606.02147) using PyTorch.
-The original Torch ENet implementation can process a 480x360 image in ~12 ms (on a P2 AWS
-instance).  TensorFlow takes ~35 ms.  The PyTorch implementation takes ~25 ms, an improvement
-over TensorFlow, but worse than the original Torch.
+Partial implementation of ENet (https://arxiv.org/abs/1606.02147) using PyTorch.
 """
 
 from __future__ import absolute_import
